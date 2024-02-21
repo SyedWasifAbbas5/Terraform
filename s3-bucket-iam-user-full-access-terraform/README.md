@@ -25,6 +25,7 @@ Above command will show you a summary of the changes that Terraform is going to 
 Step 5: Verify the S3 bucket and IAM user is being created in aws console After the Terraform apply completes successfully or else you can verify that the S3 bucket and IAM user were created by running the following commands in your terminal:
 
 aws s3 ls s3://wasif
+
 aws iam list-users | grep wasif-user
 
 Conclusion:
